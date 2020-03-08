@@ -1,0 +1,132 @@
+
+#profile {
+	height:300px;
+	width:300px;
+	border-radius:50%;
+}
+body {
+	background-color: #000000;
+background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+	font-family: 'Tahoma', serif;
+	font-size:22px;
+	color:rgb(156,160,164);
+		}
+		h1,h2,h3 {
+			font-family: 'Freestyle Script', sans-serif;
+			font-weight:bold;
+			color:rgb(156,160,164);
+		}
+		h1 {
+			font-size:72px;
+		}
+		h2 {
+			font-size:60px;
+			padding:20px;
+		}
+
+		a {
+			font-family: 'Roboto', sans-serif;
+			text-decoration:none;
+			color:beige;
+			font-weight:600;
+			font-size:16px;
+		}
+		a:hover {
+			color:blue;
+		}
+		.img-size {
+			height:5px;
+			width:5px;
+			}
+.container {
+	width:700px;
+	margin: 40px auto;
+	text-align:center;
+
+}
+.btn-blue {
+	background-color:grey;
+	color:white;
+	padding:15px 20px;
+	border-radius:4px.;
+}
+.list-inline {
+     list-style: none;
+     padding-left: 0px;
+     
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.btn-blue:hover {
+	color:white;
+}
+#intro p {
+	margin-bottom:40px;
+}
+}
+#grid {
+	position:relative;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#grid li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+	width: 27.85714285714286%;
+	padding: 0 0 32.16760145166612% 0;
+	-o-transform: rotate(-60deg) skewY(30deg);
+	-moz-transform: rotate(-60deg) skewY(30deg);
+	-webkit-transform: rotate(-60deg) skewY(30deg);
+	-ms-transform: rotate(-60deg) skewY(30deg);
+	transform: rotate(-60deg) skewY(30deg);
+	background: #fd005f;
+	overflow: hidden;
+	visibility: hidden;
+}
+#grid li * {
+	visibility: visible;
+}
+#grid li .hexagon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fdbf00;
+	-o-transform:  skewY(-30deg) rotate(60deg);
+	-moz-transform: skewY(-30deg) rotate(60deg);
+	-webkit-transform: skewY(-30deg) rotate(60deg);
+	-ms-transform: skewY(-30deg) rotate(60deg);
+	transform: skewY(-30deg) rotate(60deg);
+	overflow: hidden;
+
+}
+#grid li:nth-child(3n+2) {
+  margin: 0 1%;
+}
+#grid li:nth-child(6n+4), #grid li:nth-child(6n+5), #grid li:nth-child(6n+6) {
+    margin-top: -6.9285714285%;
+    margin-bottom: -6.9285714285%;
+    -o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+    transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+#grid li:nth-child(6n+4) {
+	margin-left: 0.5%;
+}
+.img-size {
+	text-align: center;
+	height: 220px;
+	width: 185px;
+}
